@@ -1,0 +1,104 @@
+body {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 20px;
+	background-image: url("./background.jpg");
+}
+
+.container{
+	margin: auto;
+	text-align: center;
+}
+
+.heading::after {
+  content: "";
+  height: 8px;
+  width: 100px;
+  display: block;
+  background-color: darkblue;
+  position: relative;
+  bottom: 30px;
+  left: 46.5%;
+}
+
+.items-wrapper {
+	border: solid 5px;
+	border-radius: 5px;
+	width: 300px;
+	margin: auto;
+	background-color: gray;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	padding: 20px;
+	margin-right: 35px;
+}
+
+.add {
+	border: solid 2px;
+	border-radius: 5px;
+}
+
+input {
+	height: 30px;
+	font-size: 0.75em;
+}
+
+button {
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: gray;
+	color: white;
+	font-size: 0.95em;
+}
+
+#add-wrapper {
+	margin-top: 20px;
+}
+
+.push-wrapper {
+	display: flex;
+	margin: 40px 0 0 510px;
+}
+
+div.push-wrapper > a:first-child {
+	margin-right: 90px;
+}
+
+.push-wrapper button {
+	width: 120px;
+	background-color: chocolate;
+}
+
+.push-wrapper button:hover {
+	background-color: green;
+}
+
+#build {
+	color: black;
+}
+
+#test {
+	color: blue;
+}
+
+#use {
+	color: purple;
+}
+
+#sell {
+	color: green;
+}
+
+#break {
+	color: red;
+}
+
+.completed-task {
+	text-decoration: line-through;
+}
